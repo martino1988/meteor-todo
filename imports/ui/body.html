@@ -1,0 +1,17 @@
+<body>
+    <div class="container">
+      <header>
+	<h1>Vienna Moonshine Destillery</h1>
+        <h2>Einkaufsliste:</h2>
+	<form class="new-task">
+	   <input type="text" name="text" placeholder="Type to add new tasks" />
+	  </form>
+
+      </header>
+      <ul>
+        {{#each tasks}}
+          {{> task}}
+        {{/each}}
+      </ul>
+    </div>
+  </body>
