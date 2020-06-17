@@ -15,4 +15,5 @@ $ cd meteor-todo
 
 ### start app
 $ meteor npm install
+
 $ meteor
